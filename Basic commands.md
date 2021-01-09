@@ -39,7 +39,7 @@
 + git reset --hard --> returns the project to the specified commit, and completely deletes all commits after the specified one (git reset --hard HEAD~2)
 + git reset --mixed --> returns the project to the specified commit, and transfers all commits after the specified one to the unstaged zone
 + git reset --soft --> returns the project to the specified commit, and transfers all commits after the specified one to the staged zone
-+ git reset HEAD~2 / git reset --mixed HEAD~2 (default -> mixed)
++ git reset HEAD~2 (default -> mixed)
 + git reset / git reset --mixed HEAD
 + __CHECKOUT__
 + git checkout [the name of the branch] --> switching between branches
@@ -66,7 +66,7 @@
 + ssh-add ~/.ssh/id_rsa --> adding an ssh key to the ssh agent
 + clip < ~/.ssh/id_rsa.pub --> command to copy the public key
 + __CLONE__
-git clone [address of the remote repository] --> copy a remote repository
++ git clone [address of the remote repository] --> copy a remote repository
 
 ## Working with branches
 
