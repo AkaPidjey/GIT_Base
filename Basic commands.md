@@ -17,6 +17,7 @@
 + git log --> allows you to view the entire commit history
 + (HEAD) --> indicates the current state of the project
 + HEAD~2 --> move the pointer 2 commits back
++ :wq --> exit the editor vi
 + __ADD__
 + git add [name] --> preparing files for commit
 + git add file1 file2 file3
@@ -57,7 +58,7 @@
 + git remote show --> view the status of a remote repository
 + __PUSH&PULL__
 + git push [name of the remote repository] [Branch] --> sending a local repository to a remote one
-+ git push --delete  [name of the remote repository] [Branch] - 
++ git push --delete  [name of the remote repository] [Branch] --> deleting a branch from a remote repository
 + git pull [name of the remote repository] [Branch] --> download updates from a remote repository 
 + __SSH__
 + ls -al ~/.ssh --> checking for ssh keys on the computer
@@ -69,16 +70,20 @@
 + git clone [address of the remote repository] --> copy a remote repository
 
 ## Working with branches
++ __BRANCH__
++ git branch --> view which branch we are currently on
++ git branch [the name of the branch] --> command for creating a new branch
++ git branch -d [the name of the branch] --> command to delete a branch
++ git branch -D [the name of the branch] --> command to deleting a branch by losing all commits
++ git branch -r --> view the list of remote branches
++ __REMOTE BRANCHES__
++ git merge [the name of the branch] --> merges one branch with another
++ git fetch --> download a remote branch from a remote repository
++ git pull = git fetch + git merge origin/master
++ fast-forvard --> merge without changes in the main branch
++ recursive --> merge with changes in the main branch
++ git remote show [name of the remote repositoriy] --> view information about remote and local branches
 
 
 
 
-git branch [the name of the branch] - command for creating a new branch
-git branch - view which branch we are currently on
-git branch -d [the name of the branch] - command to delete a branch
-git branch -r - view the list of remote branches
-git merge [the name of the branch] - merges one branch with another
-:wq - exit the editor vi
-git fetch - download a remote branch from a remote repository
-git pull = git fetch + git merge origin/master
-fast-forvard - merge without changes in the main branch
