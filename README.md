@@ -1,8 +1,9 @@
 # GIT_Base
 
-+ [Basic commands](#Basic-commands)
++ [Basic commands](Basic_commands.md)
 
 + [ССЫЛКИ НА ДОПОЛНИТЕЛЬНУЮ ИНФУ](#ССЫЛКИ-НА-ДОПОЛНИТЕЛЬНУЮ-ИНФУ)
+
 [к оглавлению](#git_base)
 
 ## ССЫЛКИ НА ДОПОЛНИТЕЛЬНУЮ ИНФУ
